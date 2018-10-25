@@ -7,8 +7,8 @@
 
 #define RECTANGLE           0
 #define ISOSCELESTRIANGLE   0
-#define HOUSE               1
-#define KITE                0
+#define HOUSE               0
+#define KITE                1
 
 #if RECTANGLE
 #include "Rectangle.h"
@@ -155,7 +155,7 @@ int main()
         drawAndPrint(kite, board);
 
         board.clear();
-        std::cout << "Now scaled by factor of 2:\n\n";
+        /*std::cout << "Now scaled by factor of 2:\n\n";
         bool scaling = kite.scale(2);
         if (scaling)
         {
@@ -164,7 +164,7 @@ int main()
         else
         {
             std::cout << "Scaling failed!\n";
-        }
+        }*/
     }
 #endif // KITE
 }
@@ -279,14 +279,14 @@ void drawAndPrint(const Kite& kite, Board& board)
     std::cout << "The height of the kite is: " << kite.getTotalHeight()
         << '\n';
 
-    std::cout << "The perimeter of the kite is: "
+    /*std::cout << "The perimeter of the kite is: "
         << kite.getPerimeter() << '\n';
 
     std::cout << "The area of the kite is: " << kite.getArea() << '\n';
 
     std::cout << "The center of the kite is: ";
     printVertex(kite.getCenter());
-    std::cout << '\n';
+    std::cout << '\n';*/
 
     waitForEnter();
 }

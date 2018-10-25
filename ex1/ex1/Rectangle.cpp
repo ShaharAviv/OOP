@@ -7,6 +7,7 @@ Rectangle::Rectangle(const Vertex &bottomLeft, const Vertex &topRight)
 {
 }
 
+
 Rectangle::Rectangle(const Vertex vertices[2]) : Rectangle(vertices[0], vertices[1])
 {
 }

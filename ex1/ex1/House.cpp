@@ -17,5 +17,5 @@ House::~House()
 bool House::IsGood() const
 {
 	return (sameY(m_rec.getTopRight(), m_triangle.getVertex(0)) && m_triangle.getVertex(0).isHigherThan(m_triangle.getVertex(0)) &&
-		sameX(m_triangle.getVertex(2), m_rec.getTopRight());
+		sameX(m_triangle.getVertex(2), m_rec.getTopRight()));
 }

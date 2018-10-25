@@ -1,7 +1,7 @@
 #include "IsoscelesTriangle.h"
 
-IsoscelesTriangle::IsoscelesTriangle(const Vertex vertices[3]) 
-	:m_arr{vertices[0],vertices[1],vertices[2]}
+IsoscelesTriangle::IsoscelesTriangle(const Vertex vertices[3])
+	:m_arr{ vertices[0],vertices[1],vertices[2] }
 {
 	if (!IsLegal())
 	{
@@ -50,7 +50,7 @@ double IsoscelesTriangle::getScelesLength() const
 //--------------------------------------------------------------------------
 double IsoscelesTriangle::getHeight() const
 {
-	return (m_arr[1].m_y-m_arr[0].m_y);
+	return (abs(m_arr[1].m_y-m_arr[0].m_y));
 }
 //-------------------------------------------------------------------------
 void IsoscelesTriangle::draw(Board & board) const
