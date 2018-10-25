@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\OOP\ex1\ex1\House.cpp" />
     <ClCompile Include="Board.cpp" />
-    <ClCompile Include="House.cpp" />
     <ClCompile Include="IsoscelesTriangle.cpp" />
     <ClCompile Include="Kite.cpp" />
     <ClCompile Include="Rectangle.cpp" />
@@ -29,8 +29,8 @@
     <ClCompile Include="Vertex.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\Desktop\OOP\ex1\ex1\House.h" />
     <ClInclude Include="Board.h" />
-    <ClInclude Include="House.h" />
     <ClInclude Include="IsoscelesTriangle.h" />
     <ClInclude Include="Kite.h" />
     <ClInclude Include="macros.h" />
