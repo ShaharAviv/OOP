@@ -1,10 +1,9 @@
 #pragma once
 #include "IsoscelesTriangle.h"
-
 class House
 {
 public:
-	House() = default;
+	House() = delete;
 	House(const Rectangle&, const IsoscelesTriangle&);
 	~House();
 

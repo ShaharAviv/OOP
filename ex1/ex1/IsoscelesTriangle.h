@@ -4,7 +4,7 @@
 class IsoscelesTriangle
 {
 public:
-	IsoscelesTriangle() = default;
+	IsoscelesTriangle() = delete;
 	IsoscelesTriangle(const Vertex vertices[3]);
 	IsoscelesTriangle(const Vertex& center, double width, double height);
 
@@ -18,15 +18,12 @@ public:
 	double getArea() const;
 	double getPerimeter() const;
 	Vertex getCenter() const;
-	Vertex getLeft() const;
-	Vertex getRight() const;
 	bool scale(double factor);
 
 	~IsoscelesTriangle();
 
 private:
 	Vertex m_arr[3];
-	bool isLegal() const;
-
+	bool IsLegal() const;
 };
 

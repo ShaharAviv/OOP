@@ -22,7 +22,6 @@
     <ClCompile Include="Board.cpp" />
     <ClCompile Include="House.cpp" />
     <ClCompile Include="IsoscelesTriangle.cpp" />
-    <ClCompile Include="Kite.cpp" />
     <ClCompile Include="Rectangle.cpp" />
     <ClCompile Include="Shapes.cpp" />
     <ClCompile Include="Utilities.cpp" />
@@ -32,7 +31,6 @@
     <ClInclude Include="Board.h" />
     <ClInclude Include="House.h" />
     <ClInclude Include="IsoscelesTriangle.h" />
-    <ClInclude Include="Kite.h" />
     <ClInclude Include="macros.h" />
     <ClInclude Include="Rectangle.h" />
     <ClInclude Include="Utilities.h" />

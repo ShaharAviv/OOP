@@ -5,6 +5,7 @@
 class Rectangle
 {
 public:
+	Rectangle() = delete;
 	Rectangle(const Vertex&, const Vertex&);
 	Rectangle(const Vertex ver[2]);
 	Rectangle(double x0, double y0, double x1, double y1);

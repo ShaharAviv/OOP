@@ -3,7 +3,7 @@
 IsoscelesTriangle::IsoscelesTriangle(const Vertex vertices[3]) 
 	:m_arr{vertices[0],vertices[1],vertices[2]}
 {
-	if (!isLegal())
+	if (!IsLegal())
 	{
 		m_arr[0] = { 20 , 20 };
 		m_arr[1] = { 25 , 25 };
@@ -15,7 +15,7 @@ IsoscelesTriangle::IsoscelesTriangle(const Vertex vertices[3])
 IsoscelesTriangle::IsoscelesTriangle(const Vertex & center, double width, double height) : m_arr{ {center.m_x - width / 2,  center.m_y - height}, 
 									{center}, {center.m_x + width / 2, center.m_y - height} }
 {
-	if (!isLegal())
+	if (!IsLegal())
 	{
 		m_arr[0] = { 20 , 20 };
 		m_arr[1] = { 25 , 25 };
@@ -33,16 +33,6 @@ Vertex IsoscelesTriangle::getCenter() const
 	return { m_arr[1].m_x,m_arr[2].m_y + getHeight() / 2 };
 }
 //-------------------------------------------------------------------------
-Vertex IsoscelesTriangle::getLeft() const
-{
-	return m_arr[0];
-}
-//-------------------------------------------------------------------------
-Vertex IsoscelesTriangle::getRight() const
-{
-	return m_arr[2];
-}
-//-------------------------------------------------------------------------
 bool IsoscelesTriangle::scale(double factor)
 {
 	return false;
@@ -52,13 +42,11 @@ double IsoscelesTriangle::getLength() const
 {
 	return distance(m_arr[0],m_arr[2]);
 }
-
 //--------------------------------------------------------------------------
 double IsoscelesTriangle::getScelesLength() const
 {
 	return distance(m_arr[1],m_arr[0]);
 }
-
 //--------------------------------------------------------------------------
 double IsoscelesTriangle::getHeight() const
 {
@@ -100,8 +88,8 @@ IsoscelesTriangle::~IsoscelesTriangle()
 
 
 //--------------------------------------------------------------------------
-bool IsoscelesTriangle::isLegal() const
-{//Function that check if the triangle is legal
+bool IsoscelesTriangle::IsLegal() const
+{//Function that check if the triangle is legal .
 	double side1,
 	       side2;
 	side1 = distance(m_arr[0], m_arr[1]);
