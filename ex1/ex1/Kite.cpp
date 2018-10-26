@@ -37,6 +37,26 @@ Rectangle Kite::getBoundingRectangle() const
 					{ m_triangle2.getVertex(2).m_x,m_triangle1.getVertex(1).m_y });
 }
 
+double Kite::getArea() const
+{
+
+	return (m_triangle1.getArea + m_triangle2.getArea);
+}
+
+double Kite::getPerimeter() const
+{
+	return ((m_triangle1.getPerimeter - m_triangle1.getLength) + (m_triangle2.getPerimeter - m_triangle2.getLength));
+}
+
+Vertex Kite::getCenter() const
+{
+	Vertex center;
+	center.m_x = m_triangle1.getVertex(1).m_x;
+	center.m_y = m_triangle1.getVertex(0).m_y;
+
+	return center;
+}
+
 Kite::~Kite()
 {
 }

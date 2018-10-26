@@ -10,6 +10,10 @@ public:
 	double getTotalHeight() const;
 	void draw(Board& board) const;
 	Rectangle getBoundingRectangle() const;
+	double getArea() const;
+	double getPerimeter() const;
+	Vertex getCenter() const;
+	//bool scale(double factor);
 
 	~Kite();
 
