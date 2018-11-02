@@ -19,24 +19,24 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\Desktop\OOP\ex1\ex1\House.cpp" />
-    <ClCompile Include="Board.cpp" />
-    <ClCompile Include="IsoscelesTriangle.cpp" />
-    <ClCompile Include="Kite.cpp" />
-    <ClCompile Include="Rectangle.cpp" />
-    <ClCompile Include="Shapes.cpp" />
-    <ClCompile Include="Utilities.cpp" />
-    <ClCompile Include="Vertex.cpp" />
+    <ClInclude Include="..\..\..\..\..\..\Desktop\אופ 0 סופי תומר\ex0\ex0\Board.h" />
+    <ClInclude Include="..\..\..\..\..\..\Desktop\אופ 0 סופי תומר\ex0\ex0\House.h" />
+    <ClInclude Include="..\..\..\..\..\..\Desktop\אופ 0 סופי תומר\ex0\ex0\IsoscelesTriangle.h" />
+    <ClInclude Include="..\..\..\..\..\..\Desktop\אופ 0 סופי תומר\ex0\ex0\Kite.h" />
+    <ClInclude Include="..\..\..\..\..\..\Desktop\אופ 0 סופי תומר\ex0\ex0\macros.h" />
+    <ClInclude Include="..\..\..\..\..\..\Desktop\אופ 0 סופי תומר\ex0\ex0\Rectangle.h" />
+    <ClInclude Include="..\..\..\..\..\..\Desktop\אופ 0 סופי תומר\ex0\ex0\Utilities.h" />
+    <ClInclude Include="..\..\..\..\..\..\Desktop\אופ 0 סופי תומר\ex0\ex0\Vertex.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\..\Desktop\OOP\ex1\ex1\House.h" />
-    <ClInclude Include="Board.h" />
-    <ClInclude Include="IsoscelesTriangle.h" />
-    <ClInclude Include="Kite.h" />
-    <ClInclude Include="macros.h" />
-    <ClInclude Include="Rectangle.h" />
-    <ClInclude Include="Utilities.h" />
-    <ClInclude Include="Vertex.h" />
+    <ClCompile Include="..\..\..\..\..\..\Desktop\אופ 0 סופי תומר\ex0\ex0\Board.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Desktop\אופ 0 סופי תומר\ex0\ex0\House.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Desktop\אופ 0 סופי תומר\ex0\ex0\IsoscelesTriangle.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Desktop\אופ 0 סופי תומר\ex0\ex0\Kite.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Desktop\אופ 0 סופי תומר\ex0\ex0\Rectangle.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Desktop\אופ 0 סופי תומר\ex0\ex0\Shapes.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Desktop\אופ 0 סופי תומר\ex0\ex0\Utilities.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Desktop\אופ 0 סופי תומר\ex0\ex0\Vertex.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
